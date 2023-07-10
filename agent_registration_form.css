@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@1,200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size: 120%;
+    background: rgb(147, 202, 202);
+    background-image: url(images/tumblr_nsk8itE7GY1sb27x7o1_1280_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body p{
+    margin: 40px 0 0 0;
+}
+
+ 
+.header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #d83c78;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+.header h2{
+    font-size : 40px;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+}
+
+form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: rgb(153, 211, 208);
+    border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+    margin: 20px 0 0 0;
+}
+ 
+.input-group label {
+    display: block;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+}
+.input-group input {
+    height: 32px;
+    width: 95%;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.btn {
+    cursor: pointer;
+    padding: none;
+    font-size: 25px;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+    color: rgb(243, 231, 231);
+    background: #47afb3;
+    border: none;
+    border-radius: 10px;
+    margin: 40px 0 0 210px;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    transition: all 0.08s ease;
+}
+
+.btn:hover, .btn:active{
+    font-size: 27px;
+    font-weight: bold;
+    color:rgb(4, 48, 68);
+    background: #317a7c;
+    transform: scale(1.1);
+}
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}

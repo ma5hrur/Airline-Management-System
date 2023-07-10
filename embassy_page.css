@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@1,200&display=swap');
+
+body{
+    background-image: url(images/cloud_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container{
+    width: 1050px;
+    /*border: 1px solid grey;*/
+    margin: 0 auto;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+
+
+#brand{
+    width: 875px;
+    color: rgb(13, 38, 71);
+    background-color: rgb(247, 88, 76);
+    font-weight: bold;
+    font-size: 45px;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+    border-radius: 40px;
+    padding: 10px;
+    float: left;
+}
+
+h2 a{
+    font-size: 80px;
+    font-weight: 100px;
+    color: rgb(136, 71, 136);
+    text-decoration: none;
+    margin: 0 0 10px 50px;
+}
+    
+
+.logout_button{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight:bold;
+    height: 228px;
+    width: 150px;
+    border-radius: 25px;
+    position: relative;
+    top: -240px;
+    right: -910px;
+    outline: none;
+    border: none;
+    text-transform:uppercase;
+    color:rgb(32, 30, 4);
+    background-color: rgb(47, 223, 140);
+    transition: all 0.08s ease;
+}
+
+.logout_button:hover, .logout_button:active{
+    font-size: 22px;
+    font-weight: bold;
+    color:rgb(4, 48, 68);
+    background-color: rgb(28, 156, 96);
+}
+
+.clear{
+    clear: both;
+}
+
+.visa_message{
+    margin: 70px 0 0 100px;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+    font-weight:bold;
+    color:brown;
+    width: 1050px;
+}
+
+.center_box{
+    border-style: solid;
+    height: 500px;
+    width: 900px;
+    margin: 0 0 0 75px;
+    position: absolute;
+    z-index: 0;
+    color: cadetblue;
+    background-color: cadetblue;
+    opacity: 0.8;
+    border-radius: 50px;
+}
+
+.visa_complete_box{
+    float: left;
+    margin: 120px 0 0 65px;
+    border-style:solid;
+    border-color: rgb(85, 41, 25);
+    height: 170px;
+    width: 170px;
+    text-align:center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+    font-weight:bold;
+    position: relative;
+    right: -50px;
+    top: 20px;
+    z-index: 1;
+    transition: all 0.08s ease;
+}
+
+.visa_complete_box a{
+    text-decoration: none;
+    color:darkblue;
+    
+}
+
+
+.visa_complete_box:hover, .visa_complete_box:active{
+    font-size: 22px;
+    color:rgb(4, 48, 68);
+    background-color: rgb(96, 199, 151);
+    transform: scale(1.1);
+}
+
+.visa_complete_box img:hover, .visa_complete_box img:active{
+    filter: opacity(0.3) drop-shadow(0 0 0 rgb(23, 62, 233));
+}
+
+
+
+.visa_ongoing_box{
+    float: left;
+    margin: 102px 100px 0 50px;
+    border-style:solid;
+    border-color: rgb(85, 41, 25);
+    height: 170px;
+    width: 170px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+    font-weight:bold;
+    position: relative;
+    top: 20px;
+    right: -160px;
+    z-index: 1;
+    transition: all 0.08s ease;
+}
+
+.visa_ongoing_box a{
+    text-decoration: none;
+    color:darkblue;
+}
+
+
+
+.visa_ongoing_box:hover, .visa_ongoing_box:active{
+    font-size: 22px;
+    color:rgb(4, 48, 68);
+    background-color: rgb(96, 199, 151);
+    transform: scale(1.1);
+}
+
+
+.visa_ongoing_box img:hover, .visa_ongoing_box img:active{
+    filter: opacity(0.3) drop-shadow(0 0 0 rgb(23, 62, 233));
+}
+
+
+

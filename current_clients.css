@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@1,200&display=swap');
+
+body {
+    background: rgb(147, 202, 202);
+    background-image: url(images/tumblr_nsk8itE7GY1sb27x7o1_1280_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+table{
+    height: 700px;
+    width: 70%;
+    margin: 0 0 0 280px;
+    color:darkkhaki;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 50px;
+}
+
+th{
+    background-color: darksalmon;
+    color:dimgray;
+    font-size: 27px;
+    font-weight:900;
+}
+
+tr:nth-child(even) {
+    background-color:gainsboro;
+    color:rgb(15, 15, 15);
+    font-size: 20px;
+}
+
+tr:nth-child(odd) {
+    background-color:rgb(112, 112, 112);
+    color:seashell;
+    font-size: 20px;
+}
+
+tr a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+tr button{
+    border-radius: 30px;
+    border-style: none;
+    background-color: rgb(221, 70, 64);
+    transition: all 0.08s ease;
+    height: 40px;
+    width: 100px;
+}
+
+tr button:hover, tr button:active{
+    background-color: rgb(145, 42, 38);
+    transform: scale(1.1);
+}
+
+.update_btn{
+    background-color: rgb(74, 201, 91);
+    transition: all 0.08s ease;
+}
+
+.update_btn:active, .update_btn:hover{
+    background-color: rgb(50, 146, 63);
+    transform: scale(1.1);
+}
+
+
+p a {
+    color:snow;
+    background-color: rgb(90, 157, 211);
+    height: 60px;
+    width: 110px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 12px 0 0 20px;
+    border-radius: 20px;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+    transition: all 0.08s ease;
+}
+
+p a:hover, p a:active{
+    background-color: rgb(56, 108, 151);
+    transform: scale(1.1);
+}

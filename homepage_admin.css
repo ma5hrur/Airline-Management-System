@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@1,200&display=swap');
+
+body{
+    background-image: url(images/cloud_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container{
+    width: 1050px;
+    /*border: 1px solid grey;*/
+    margin: 0 auto;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+
+
+#brand{
+    width: 875px;
+    color: rgb(13, 38, 71);
+    background-color: rgb(247, 88, 76);
+    font-weight: bold;
+    font-size: 45px;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+    border-radius: 40px;
+    padding: 10px;
+    float: left;
+}
+
+h2 a{
+    font-size: 80px;
+    font-weight: 100px;
+    color: rgb(136, 71, 136);
+    text-decoration: none;
+    margin: 0 0 10px 50px;
+}
+    
+
+.logout_button{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight:bold;
+    height: 228px;
+    width: 150px;
+    position: relative;
+    top: -162px;
+    right: -10px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    text-transform:uppercase;
+    color:rgb(32, 30, 4);
+    background-color: rgb(47, 223, 140);
+    transition: all 0.08s ease;
+}
+
+.logout_button:hover, .logout_button:active{
+    font-size: 22px;
+    font-weight: bold;
+    color:rgb(4, 48, 68);
+    background-color: rgb(28, 156, 96);
+}
+
+.clear{
+    clear: both;
+}
+
+#welcome_message{
+    margin: 80px 0 0 100px;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+    font-weight:bold;
+    color:brown;
+    width: 1050px;
+    position: relative;
+    left: -800px;
+}
+
+.center_box{
+    border-style: solid;
+    height: 500px;
+    width: 900px;
+    margin: 0 0 0 75px;
+    position: absolute;
+    z-index: 0;
+    color: cadetblue;
+    background-color: cadetblue;
+    opacity: 0.8;
+    border-radius: 50px;
+}
+
+.client_box{
+    float: left;
+    margin: 0 0 0 200px;
+    border-style:solid;
+    border-color: rgb(85, 41, 25);
+    height: 170px;
+    width: 170px;
+    text-align:center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+    font-weight:bold;
+    position: relative;
+    z-index: 1;
+    transition: all 0.08s ease;
+}
+
+.client_box a{
+    text-decoration: none;
+    color:darkblue;
+}
+
+.client_box:hover, .client_box:active{
+    font-size: 22px;
+    color:rgb(4, 48, 68);
+    background-color: rgb(96, 199, 151);
+    transform: scale(1.1);
+}
+
+.client_box img:hover, .client_box img:active{
+    filter: opacity(0.3) drop-shadow(0 0 0 rgb(23, 62, 233));
+}
+
+.hotels_box{
+    float: right;
+    margin: 0 200px 0 0;
+    border-style:solid;
+    border-color: rgb(85, 41, 25);
+    height: 170px;
+    width: 170px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+    font-weight:bold;
+    position: relative;
+    z-index: 1;
+    transition: all 0.08s ease;
+}
+
+.hotels_box a{
+    text-decoration: none;
+    color:darkblue;
+}
+
+.hotels_box:hover, .hotels_box:active{
+    font-size: 22px;
+    color:rgb(4, 48, 68);
+    background-color: rgb(96, 199, 151);
+    transform: scale(1.1);
+}
+
+.hotels_box img:hover, .hotels_box img:active{
+    filter: opacity(0.3) drop-shadow(0 0 0 rgb(23, 62, 233));
+}
+
+.airlines_box{
+    float: left;
+    position: relative;
+    top: 215px;
+    right: 175px;
+    border-style:solid;
+    border-color: rgb(85, 41, 25);
+    height: 170px;
+    width: 170px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+    font-weight:bold;
+    transition: all 0.08s ease;
+}
+
+.airlines_box a{
+    text-decoration: none;
+    color:darkblue;
+}
+
+.airlines_box:hover, .airlines_box:active{
+    font-size: 22px;
+    color:rgb(4, 48, 68);
+    background-color: rgb(96, 199, 151);
+    transform: scale(1.1);
+}
+
+.airlines_box img:hover, .airlines_box img:active{
+    filter: opacity(0.3) drop-shadow(0 0 0 rgb(23, 62, 233));
+}
+
+.administration_box{
+    float: left;
+    position: relative;
+    top: 39px;
+    right: -430px;
+    border-style:solid;
+    border-color: rgb(85, 41, 25);
+    height: 170px;
+    width: 170px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+    font-weight:bold;
+    transition: all 0.08s ease;
+}
+
+.administration_box a{
+    text-decoration: none;
+    color:darkblue;
+}
+
+.administration_box:hover, .administration_box:active{
+    font-size: 22px;
+    color:rgb(4, 48, 68);
+    background-color: rgb(96, 199, 151);
+    transform: scale(1.1);
+}
+
+.administration_box img:hover, .administration_box img:active{
+    filter: opacity(0.3) drop-shadow(0 0 0 rgb(23, 62, 233));
+}
+
+.embassy_box{
+    float: right;
+    position: relative;
+    top: 39px;
+    right: 200px;
+    border-style:solid;
+    border-color: rgb(85, 41, 25);
+    height: 170px;
+    width: 170px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Georama' , 'Times New Roman', Times, serif;
+    font-weight:bold;
+    transition: all 0.08s ease;
+}
+
+.embassy_box a{
+    text-decoration: none;
+    color:darkblue;
+}
+
+.embassy_box:hover, .embassy_box:active{
+    font-size: 22px;
+    color:rgb(4, 48, 68);
+    background-color: rgb(96, 199, 151);
+    transform: scale(1.1);
+}
+
+.embassy_box img:hover, .embassy_box img:active{
+    filter: opacity(0.3) drop-shadow(0 0 0 rgb(23, 62, 233));
+}
+
+
